@@ -132,7 +132,7 @@ margin: 0 auto;
   background-color: #0078aa;
   cursor: pointer;
   position: fixed;
-  top: 600px;
+  top: 87%;
   right: 20px;
 }
 .fa-long-arrow-alt-up{
@@ -430,6 +430,11 @@ flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
   }
+  .top-link {
+    top: 88%;
+    right: 15px;
+  }
+
   .header-top-wprap {
     width: 98%;
   }
