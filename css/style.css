@@ -384,6 +384,11 @@ flex-direction: column;
   cursor: pointer;
 }
 
+.contact_info_button:hover {
+  background-color: #fff;
+  color: #0078aa;
+}
+
 .footer{
   width: 100%;
   height: 40px;
@@ -427,7 +432,6 @@ flex-direction: column;
   }
   .header-top-wprap {
     width: 98%;
-    height: 90px;
   }
   .main-nav ul{
     width: 320px;
@@ -482,9 +486,26 @@ flex-direction: column;
 }
 
 @media (max-width: 460px) {
+  .header-top-wprap {
+    height: 80px;
+  }
+  .landing-logo {
+    padding-top: 5px;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  .main-nav ul {
+    width: 300px;
+    padding-inline-start: 12px;
+  }
+  .main-nav ul li a {
+    margin-left: 0px;
+  }
   .main-nav ul{
     width: 300px;
-    margin-right: 28px;
+    margin-right: 10px;
   }
   .header_icons {
     display: flex;
