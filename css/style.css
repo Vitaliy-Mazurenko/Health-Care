@@ -1,0 +1,505 @@
+/*
+* Colors used in design.
+*   primary: #0078aa;
+*   dark: #363636;
+*   light: #fff;
+*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body,
+div, span,
+section {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+#header{
+  background-color: #ffffff;
+}
+
+.header-top{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header-top-wprap{
+width: 80%;
+height: 50px;
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+}
+
+.landing-logo{
+  padding-top: 9px;
+  cursor: pointer;
+}
+
+.main-nav ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 450px;
+}
+
+.main-nav ul li a{
+  color: #363636;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.main-nav ul li a:hover {
+  color: #0078aa;
+}
+
+.header-section{
+  background-image: url(../img/lady.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  padding-top: 50px;
+}
+
+.header-section-wrap{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+
+.header_heading{
+  max-width: 410px;
+}
+
+.header_text{
+  max-width: 450px;
+}
+
+.header_icons{
+  display: inline-flex;
+  padding-top: 15px;
+}
+
+.svg-inline--fa{
+  width: 30px;
+  margin: 20px;
+  position: relative;
+  bottom: 8px;
+  right: 8px;
+  color: #ffffff;
+}
+
+.icons_wrap {
+  width: 56px;
+  height: 56px;
+  margin-right: 9px;
+  border: 2px solid #0078aa;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background-color: #0078aa;
+  cursor: pointer;
+}
+.icons_wrap:hover {
+  background-color: #fff;
+}
+
+.icons_wrap:hover .svg-inline--fa{
+  color: #0078aa;
+}
+
+.icons_top{
+  position: relative;
+}
+
+.top-link{
+  width: 56px;
+  height: 56px;
+  border: 2px solid #0078aa;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background-color: #0078aa;
+  cursor: pointer;
+  position: fixed;
+  top: 600px;
+  right: 20px;
+}
+.fa-long-arrow-alt-up{
+  width: 18px;
+  height: 18px;
+  margin: 25px;
+  color: #fff;
+}
+
+.top-link:hover {
+  background-color: #fff;
+}
+
+.top-link:hover .fa-long-arrow-alt-up{
+  color: #0078aa;
+}
+
+.about-wrap{
+  padding-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+
+.about-img{
+  background-image: url(../img/tools.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 737px;
+  height: 496px;
+  margin-top: 40px;
+  margin-right: 20px;
+  display: flex;
+  flex-shrink: 2;
+}
+
+.clinic{
+  max-width: 500px;
+  padding-top: 70px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+}
+
+.clinic .subtitle{
+  color: #0078aa;
+}
+.clinic h3:before {
+  content: "\21D2";
+  padding-right: 8px;
+  color: #0078aa;
+}
+
+.clinic p {
+  margin-top: 0;
+}
+
+
+#services{
+  background-image: url(../img/services_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  padding-bottom: 50px;
+}
+#services h2{
+  padding-top: 50px;
+  text-align: center;
+}
+.read-more{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.our_services{
+  display: flex;
+  justify-content: space-around;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.services_item{
+  max-width: 410px;
+  background-color:#fff;
+  margin: 10px;
+}
+
+.our_services img{
+  padding-left: 10px;
+}
+
+.our_services h3{
+  padding-left: 10px;
+}
+.our_services p{
+  max-width: 380px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#pricing{
+  background-image: url(../img/pricing_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+#pricing h2{
+  text-align: center;
+  font-size: 30px;
+  line-height: 1;
+}
+
+#pricing .subtitle{
+  text-align: center;
+  padding-bottom: 35px;
+  line-height: 1;
+}
+.our_pricing{
+  display: flex;
+  justify-content: center;
+}
+
+.pricing_item{
+  width: 300px;
+}
+
+.pricing_item:nth-child(odd) .features{
+  background-color: #47C9E5;
+  color: #fff;
+  height: 520px;
+ }
+ .pricing_item:nth-child(even) .features{
+  background-color: #fff;
+  border: 2px solid #47C9E5;
+  color: #0078aa;
+  height: 550px;
+ }
+
+
+.features ul{
+  list-style: none;
+  text-align: center;
+  padding-top: 30px;
+  margin-right: 45px;
+}
+
+.features ul li{
+  line-height: 2.8;
+  font-size: 15px;
+}
+
+.features ul li:nth-child(1){
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.features ul li:nth-child(2){
+  line-height: 1.1;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.features ul li:nth-child(3){
+  padding-bottom: 9px;
+}
+
+.features .pricing_button{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 95px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border-color: #0078aa;
+  background-color:#fff;
+  color: #0078aa;
+  font-weight: 700;
+  border: 2px solid #0078aa;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#contact{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.contact-img{
+  background-image: url(../img/contact_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 960px;
+  height: 705px;
+  margin-top: 40px;
+  margin-right: 20px;
+  display: flex;
+  flex-shrink: 2;
+}
+
+.contact_info{
+padding-top: 20px;
+padding-left: 5px;
+display: flex;
+flex-direction: column;
+}
+
+.contact_info input {
+  display: block;
+  width: 400px;
+  padding: 0 15px;
+  margin-right: 20px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  background: none;
+  border-width: 0;
+  border-bottom: 2px solid grey;
+  transition: all 0.2s ease;
+  font-style: italic;
+}
+
+.contact_info input:focus {
+  outline: 0;
+  border-color: #0078aa;
+}
+
+.contact_info_button{
+  margin-top: 20px;
+  width: 95px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 9px;
+  border-color: #0078aa;
+  background-color: #0078aa;;
+  color: #fff;
+  font-weight: 700;
+  border: 2px solid #0078aa;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.footer{
+  width: 100%;
+  height: 40px;
+  background-color:#343638;
+  bottom: 0;
+}
+.footer-cr{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  color:#fff;
+  line-height: 1;
+  background-color: #343638;
+}
+
+
+@media (max-width: 1280px) {
+  .about-img {
+    width: 516px;
+    height: 348px;
+  }
+  .clinic {
+    max-width: 423px;
+  }
+  .contact-img{
+    width: 672px;
+    height: 494px;
+  }
+  .contact_info input {
+    width: 310px;
+  }
+  .pricing_item{
+    width: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-top-wprap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-top-wprap {
+    width: 98%;
+    height: 90px;
+  }
+  .main-nav ul{
+    width: 320px;
+  }
+  .main-nav ul li a{
+    font-size: 14px;
+  }
+  .our_services{
+    flex-wrap: wrap;
+    max-width: 95%;
+  }
+  .about-wrap{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1px;
+  }
+  .clinic {
+    text-align: center;
+    padding-left: 5px;
+    padding-top: 0;
+  }
+  .our_pricing{
+    flex-wrap: wrap;
+  }
+  #contact{
+    flex-wrap: wrap;
+  }
+  .contact_info{
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .header_heading {
+    text-align: center;
+  }
+  .contact_info h2{
+    text-align: center;
+    margin-bottom: 5px;
+    width: 80%;
+    }
+    .contact_info input {
+      margin-right: 5px;
+    }
+  .contact_info_button {
+    margin: 20px auto;
+  }
+  .pricing_item:nth-child(even){
+    margin-top: 15px;
+  }
+  .pricing_item{
+    width: 300px;
+  }
+}
+
+@media (max-width: 460px) {
+  .main-nav ul{
+    width: 300px;
+    margin-right: 28px;
+  }
+  .header_icons {
+    display: flex;
+    justify-content: center;
+  }
+  .header_text {
+    text-align: center;
+}
+  .contact_info input {
+    width: 245px;
+  }
+  .header-section {
+    background-size: 1344px 511px;
+  }
+  .main-nav ul li a{
+    font-size: 12px;
+  }
+}
