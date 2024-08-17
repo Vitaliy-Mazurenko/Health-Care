@@ -519,12 +519,16 @@ flex-direction: column;
   }
   .header_text {
     text-align: center;
-}
+  }
   .contact_info input {
     width: 245px;
   }
   .header-section {
-    background-size: 1344px 511px;
+    background-size: 960px 365px;
+    padding-top: 0px;
+  }
+  .header-section-wrap {
+    padding-bottom: 85px;
   }
   .main-nav ul li a{
     font-size: 12px;
